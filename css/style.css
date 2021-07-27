@@ -1,0 +1,40 @@
+#main-header img {
+    width:100%;
+    height: 100%;
+}
+
+.bg-black {
+     background: black;
+}
+#main-header .port-item {
+    width:30%;
+}
+
+#main-header .port-item:hover {
+    opacity:0.8;
+    cursor: pointer;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+.btn:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+@media(min-width:1199px) {
+    .port-item {
+        padding: 4em !important;
+    }
+}
